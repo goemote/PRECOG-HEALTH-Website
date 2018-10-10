@@ -3,49 +3,70 @@
 <html>
     <head>
         <title>PRECOG Health</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
     </head>
 
     <body>
-        <nav>
-            <a href="#">PRECOG</a>
-            <a href="#">Solutions</a>
-            <a href="#">Contact</a>
-        </nav>
+        <div class="container">
+            <nav>
+                <a href="#">PRECOG</a>
+                <a href="#">Solutions</a>
+                <a href="#">Contact</a>
+            </nav>
 
-        <header>
-            <h1>Changing health care documentation</h1>
-            <p>"Intelligence First"</p>
-        </header>    
-    
-        <main>
-            <div class="content">
-                <img src="http://placeimg.com/400/400/tech" alt="">
-                <h3>Maximizing MHAC Revenue</h3>
-                <p>Lorem ipsum</p>
-                <p>Identifying and prioritizing hospital accounts that
-                    have Maryland Hospital Acquired Conditions
-                    (MHACs) that should be targeted by Clinical
-                    Documentation Excellence (CDE), Coding and Quality
-                    teams with the goal of maximizing reimbursements
-                    for Johns Hopkins.</p>
-            </div>
-            <div class="content">
-                <img src="http://placeimg.com/400/400/tech" alt="">
-                <h3>Documenting what matters</h3>
-                <p>Because documentation can get complex</p>
-                <p>With an ever increasing focus on quality measures
-                    and value based reimbursement, it's vitally important
-                    to have a smart, intuitive and prioritized patient
-                    review process to focus on the documentation that
-                    matters most while a patient is still at the hospital.</p>
-            </div>
+            <header>
+                <h1>Changing health care documentation</h1>
+                <p>"Intelligence First"</p>
+            </header>    
+        
+            <main>
+                
+                <section class="content">
+                
+                    <article>
+                        <img src="http://placeimg.com/400/400/tech" alt="" class="image">
+                        <h3>Maximizing MHAC Revenue</h3>
+                        <p>Lorem ipsum</p>
+                        <p>Identifying and prioritizing hospital accounts that have Maryland Hospital Acquired Conditions (MHACs) that should be targeted by Clinical Documentation Excellence (CDE), Coding and Quality teams with the goal of maximizing reimbursements for Johns Hopkins.</p>
+                    </article>
+                
+                    <article>
+                        <img src="http://placeimg.com/400/400/tech" alt="" class="image">
+                        <h3>Documenting what matters</h3>
+                        <p>Because documentation can get complex</p>
+                        <p>With an ever increasing focus on quality measures and value based reimbursement, it's vitally important to have a smart, intuitive and prioritized patient review process to focus on the documentation that matters most while a patient is still at the hospital.</p>
+                    </article>
+                
+                </section>
 
-            <div class="contact">
-                <h3>Get In Touch With Us</h3>
-            </div>
-        </main>
+                <section class="contact">
+                    <h3>Get In Touch With Us</h3>
+                    <div class="formcontainer">
+                    <form action="#" method="POST">
+                        <fieldset><legend></legend>
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Full name..">
 
-        <footer>&copy; 2018 Precog, LLC</footer>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email..">
 
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject..">
+
+                        <label for="">Message</label>
+                        <textarea id="message" name="message" placeholder="Message.."></textarea><br>
+
+                        <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                    </div>
+                </section>
+
+            </main>
+
+            <footer>&copy; 2018 Precog, LLC</footer>
+        </div>
     </body>
 </html>

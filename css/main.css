@@ -1,0 +1,95 @@
+/* * {
+    border: solid 1px red;
+} */
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-areas: "head head"
+                         "main main"
+                         "footer footer"
+                         "nav nav";
+    grid-template-columns: 1fr 1fr;
+}
+
+header {
+    color: #D98310;
+    grid-area: head;
+    background-image: url("http://placeimg.com/800/800/tech");
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+article {
+    border: solid blue 1px;
+}
+
+.image {
+    display: block;
+    border: solid green 1px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contact {
+    background: #0B3C5D;
+    color: #D98310;
+    padding-top: 10px;
+}
+
+.formcontainer {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.contact h3 {
+    text-align: center;
+}
+
+fieldset {
+    margin-top: -15px;
+    border: 0;
+}
+
+form label {
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type=text], input[type=email], textarea{
+    display: block;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    resize: vertical;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main {
+    grid-area: main;
+    background: lightblue;
+}
+
+footer {
+    grid-area: footer;
+    background: lightgreen;
+}
+
+nav {
+    grid-area: nav;
+    background: lightcoral;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
