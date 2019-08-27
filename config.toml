@@ -1,0 +1,15 @@
+baseurl = ""
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+title = "Precog Health"
+#canonifyurls  = true
+
+DefaultContentLanguage = "en"
+metaDataFormat = "yaml"
+#pygmentsUseClasses = true
+#pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+

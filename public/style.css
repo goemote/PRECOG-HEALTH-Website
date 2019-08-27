@@ -1,0 +1,97 @@
+
+/* .des-wrapper{
+  height: auto;
+  width: auto;
+} */
+/* 
+.wrapper-left p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+.wrapper-left h2{
+  font-family: 'Noto Serif', serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #084059;
+}
+.wrapper-left ul{
+  list-style: none;
+} */
+.text-right{
+  float: right;
+  width: 50%;
+}
+.portfolio{
+  height: 350px;
+}
+.portfolio-image{
+  background-image: url(Revenue_img.jpg);
+  background-repeat: no-repeat;
+  height: 350px;
+  background-size: cover;
+}
+.des-text{
+  padding: 80px;
+}
+
+.des-text h3{
+  font-size: 15px;
+}
+.footer{
+  background-color: #052633;
+}
+.about{
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-right: 250px;
+}
+.about p{
+  color: white;
+}
+.about h1{
+  color: #38d9b8;
+  font-family: 'Noto Serif', serif;
+  font-size: 22px;
+}
+.contact-info h1{
+  color: #38d9b8;
+  font-family: 'Noto Serif', serif;
+  font-size: 22px;
+}
+.contact-info h2{
+  color: white;
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+}
+
+/* Faizan */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-section{
+  background-image: url(/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 175px;
+}
+.logo {
+  padding-top: 100px;
+}
+.logo svg {
+  fill: #fff;
+  max-width: 250px;
+}
+
+.wrapper-left h2 {
+  margin-top: 45px;
+  color: #38d9b8;
+  font-family: 'Noto Serif', serif;
+}
+
+
+.main-content .wrapper-right {
+  background-color: #d7ede5;
+}
