@@ -20,7 +20,7 @@ enterprise_values:
 
 ## Product Summary
 
-A software that provides a real-time <b>dashboard,daily prioritized worklists, quality alerts and notifications</b> to physicians, CDI, HIM and quality and safety directors.
+A software that provides a real-time <b>dashboard, daily prioritized worklists, quality alerts and notifications</b> to physicians, CDI, HIM and quality and safety directors.
 
 ## Why PRECOG HEALTH?
 
