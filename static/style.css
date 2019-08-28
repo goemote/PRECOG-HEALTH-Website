@@ -65,12 +65,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content .wrapper-right {
   background-color: #d7ede5;
+  height: 100%;
 }
 
 .right-image {
   background-image: url(/Revenue_img.jpg);
   background-repeat: no-repeat;
-  height: 350px;
+  height: 400px;
   background-size: cover; 
 }
 .values-wrap {

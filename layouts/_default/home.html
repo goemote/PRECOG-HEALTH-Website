@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>PRECOG HEALTH </title>
-    <meta name="description" content="">
+    <title>{{ .Title | default .Site.Title }}</title>
+    <meta name="description" content="{{ .Description | default .Summary }}">
+    {{ hugo.Generator }}
+
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
+
     
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -73,25 +81,31 @@
           </ul>
         </div>
 
-        <div class="col-md-6 wrapper-right">
-          <div class="right-image"></div>
-
-          <div class="right-text values-wrap">
-            <h3>Enterprise Value</h3>
-            <div class="row">
-              <div class="col-md-12 value-box">
-                <div class="row">
-                  <div class="col-md-2 col-3">
-                    <img src="/Focus.svg" alt="">
-                  </div>
-                  <div class="col-md-9 col-8">
-                    <p>Help CFOs understand, planand optimize incentive-based reimbursement</p>
+        <div class="col-md-6 ">
+          <div class="wrapper-right">
+            <div class="right-image"></div>
+  
+            <div class="right-text values-wrap">
+              <h3>Enterprise Value</h3>
+              <div class="row">
+                {{ range .Params.enterprise_values }}
+                <div class="col-md-12 value-box">
+                  <div class="row">
+                    <div class="col-md-2 col-3">
+                      <img src="{{ .icon }}" alt="">
+                    </div>
+                    <div class="col-md-9 col-8">
+                      <p>{{ .text }}</p>
+                    </div>
                   </div>
                 </div>
+                {{ end }}
               </div>
+  
             </div>
 
           </div>
+
         </div>
 
       </div>
