@@ -13,3 +13,9 @@ metaDataFormat = "yaml"
 #googleAnalytics = "XXX"
 
 
+disableKinds = ["categories", "tags"]
+
+[params]
+about_us = "PRECOG HEALTH was founded with the goal of helping hospitals efficiently and accurately code medical records such that the excellent care the hospital providesequals the care measured. We believe that when quality and safety teams can trust that medical records are documented accurately, coded correctly and harmful events are appropriately identified, they can better focus their resources onpreventing those harmful events in the first place."
+email = "info@precoghealth.com"
+phone = "410-934-7635"

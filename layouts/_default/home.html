@@ -57,28 +57,7 @@
     <main class="container main-content">
       <div class="row">
         <div class="col-md-6 wrapper-left">
-          <h2>Product Summary</h2>
-          <p>A software that provides a real-time <b>dashboard,daily prioritized worklists, quality alerts and notifications</b> to physicians, CDI, HIM and quality and safety directors.</p>
-
-          <h2>Why PRECOG HEALTH? </h2>
-          <p>With an ever-increasing focus on quality measures and value-basedreimbursement, it’s vitally important to have a smart, intuitive andprioritized patient review process to focus on documentation thatmatters most.</p>
-
-          <h2>How It Works</h2>
-          <p>Maximizing revenue for quality-based reimbursement programsjust got easier. PRECOG HEALTH’s proprietary software helps Clinical Documentation Improvement (CDI), Health Information Management (HIM) and Quality Improvement (QI) teams identify and prioritize hospital accounts that could have a negative impact on quality-based incentive payments. Through integration with a hospital’s electronic medical record and billing system, the software provides real-time insight into how a coded patient account will impact various quality measures and the dollar impact of those results.</p>
-          
-          <h2>Solutions</h2>
-          <h3>Live</h3>
-          <p>Maryland Hospital Acquired Conditions (MHAC’s)</p>
-
-          <h3>Future Development</h3>
-          <ul>
-            <li>Patient Safety Indicators (PSI’s)</li>
-            <li>Quality Based Reimbursement (QBR) Performance</li>
-            <li>National Potentially Preventable Conditions (PPC’s)</li>
-            <li>Mortality</li>
-            <li>Pediatric Measures</li>
-            <li>Ambulatory Measures</li>
-          </ul>
+           {{ .Content }}
         </div>
 
         <div class="col-md-6 ">
@@ -118,21 +97,18 @@
           
           <div class="col-md-7">
             <h4>About Us</h4>
-            <p>PRECOG HEALTH was founded with the goal of helping hospitals efficiently and accurately code medical records such that the excellent care the hospital providesequals the care measured.  We believe that when quality and safety teams can trust that medical records are documented accurately, coded correctly and harmful events are appropriately identified, they can better focus their resources onpreventing those harmful events in the first place.</p>
+            <p> {{ $.Site.Params.about_us }} </p>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-4 contact-info">
             <h4>Contact Us</h4>
-            <p><a href="tel:410-934-7635">410-934-7635</a></p>
-            <p><a href="mailto:info@precoghealth.com">info@precoghealth.com</a></p>
+            {{ with $.Site.Params.phone }}<p><a href="tel:{{ . }}">{{ . }}</a></p>{{ end }}
+            {{ with $.Site.Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
           </div>
 
         </div>
 
       </div>
     </footer>
-
-    
-    
   </body>
 </html>
