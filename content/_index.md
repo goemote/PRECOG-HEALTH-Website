@@ -24,7 +24,7 @@ A software that provides a real-time <b>dashboard, daily prioritized worklists, 
 
 ## Why PRECOG HEALTH?
 
-With an ever-increasing focus on quality measures and value-basedreimbursement, it’s vitally important to have a smart, intuitive andprioritized patient review process to focus on documentation thatmatters most.
+With an ever-increasing focus on quality measures and value-based reimbursement, it’s vitally important to have a smart, intuitive andprioritized patient review process to focus on documentation thatmatters most.
 
 ## How It Works
 
