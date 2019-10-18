@@ -6,7 +6,7 @@ title: Precog Health
 enterprise_values:
   - icon: /reimbursements.svg
     icon_alt: Reimbusements - Precog Health
-    text: Help CFOs understand, planand optimize incentive-based reimbursement
+    text: Help CFOs understand, plan and optimize incentive-based reimbursement
 
   - icon: /inform.svg
     icon_alt: Inform - Precog Health
